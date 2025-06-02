@@ -39,3 +39,4 @@ VENDOR_SECURITY_PATCH := 2025-02-01
 
 # inherit from the proprietary version
 include vendor/motorola/rhodep/BoardConfigVendor.mk
+include hardware/motorola/dolby/BoardConfigVendor.mk
