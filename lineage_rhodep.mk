@@ -27,3 +27,15 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     BuildDesc="rhodep_g-user 13 T1SUS33M.1-124-6-14 2ee2d0 release-keys" \
     BuildFingerprint=motorola/rhodep_g/rhodep:13/T1SUS33M.1-124-6-14/2ee2d0:user/release-keys \
     DeviceProduct=rhodep_g
+
+# Build stuff
+MIST_BUILD_TYPE := UNOFFICIAL
+MISTOS_MAINTAINER=jinwoo099
+TARGET_ENABLE_BLUR := true
+WITH_GMS := true
+TARGET_BOOT_ANIMATION_RES := 1080
+TARGET_BUILD_APERTURE_CAMERA := true
+TARGET_DISABLE_EPPE := true
+
+# Disable UFFD GC because 5.4 kernel doesn't support it
+# PRODUCT_ENABLE_UFFD_GC := false
